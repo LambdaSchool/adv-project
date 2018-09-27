@@ -151,3 +151,15 @@ STATIC_URL = '/static/'
 
 import django_heroku
 django_heroku.settings(locals())
+
+import pusher
+
+pusher_client = pusher.Pusher(
+  app_id='606951',
+  key='84f4fb2af43d0715d409',
+  secret='2fb3479f87509793d217',
+  cluster='us2',
+  ssl=True
+)
+
+pusher_client.trigger('my-channel', 'my-event', {'message': 'hello world'})
