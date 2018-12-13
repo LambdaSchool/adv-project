@@ -1,5 +1,7 @@
 # Adventure Project Week
 
+- [Trello URL](https://trello.com/invite/b/bpBdt63d/60b0dc52906cc03a26833ee7f72e1199/lambdamud-timothy-hoang)
+
 This week you'll be implementing a frontend interface for a multi-user
 dungeon (MUD) game called _LambdaMUD_. The backend is partially written
 but needs to be completed.
@@ -125,7 +127,6 @@ MVP as soon as you can and get working the list of features.
 - [ ] Add weapons
 - [ ] Add combat with NPCs
 - [ ] Add PvP combat
-
 
 ---
 
